@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Frontend - Interactive rating component solution](./public/assets/images/screenshot.png)
+![Frontend - Interactive rating component solution](./public/assets/screenshot.png)
 
 ### Links
 
--   Solution URL: [Solution URL](https://your-solution-url.com)
--   Live Site URL: [Live site URL](https://your-live-site-url.com)
+-   Solution URL: [Solution URL](https://github.com/Andro87/interactive-rating-component.git)
+-   Live Site URL: [Live site URL](https://interactive-rating-component-ten-sooty.vercel.app/)
 
 ## My process
 
