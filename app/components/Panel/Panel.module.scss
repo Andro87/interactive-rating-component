@@ -1,0 +1,17 @@
+.illustration_container {
+    display: flex;
+
+    img {
+        margin: auto;
+    }
+}
+
+.user_choice {
+    background-color: var(--light-black);
+    color: var(--orange);
+    padding: 0.25em 1em;
+    width: fit-content;
+    border-radius: 23px;
+    margin-inline: auto;
+    margin-top: 15px;
+}

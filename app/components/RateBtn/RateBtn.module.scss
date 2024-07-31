@@ -1,0 +1,36 @@
+@use "styles/helpers" as *;
+
+.choice_container {
+    input {
+        position: fixed;
+        width: 0;
+        opacity: 0;
+        &:checked + label,
+        &:focus {
+            background-color: var(--white);
+            color: var(--dark-blue);
+        }
+    }
+    label {
+        margin: auto;
+        font-weight: 700;
+        cursor: pointer;
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background-color: var(--light-black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include transition;
+        @include breakpoint($medium) {
+            width: 50px;
+            height: 50px;
+        }
+        &:hover {
+            background-color: var(--orange);
+            color: var(--dark-blue);
+        }
+    }
+}

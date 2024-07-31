@@ -1,0 +1,32 @@
+@use "styles/helpers" as *;
+
+.main {
+    width: 90%;
+    max-width: 27.5rem;
+    background-color: var(--dark-blue);
+    border-radius: 15px;
+    padding: 24px; /***/
+    margin: auto;
+    position: relative;
+    @include breakpoint($medium) {
+        padding: 32px;
+        border-radius: 32px;
+    }
+}
+
+.main_panel {
+    text-align: center;
+}
+
+.message {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--orange);
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+    position: absolute;
+    inset: 0;
+    top: 100%;
+}

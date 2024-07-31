@@ -1,0 +1,11 @@
+@use "styles/helpers" as *;
+
+h1,
+h2 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.6rem;
+    @include breakpoint($medium) {
+        font-size: 1.87rem;
+    }
+}

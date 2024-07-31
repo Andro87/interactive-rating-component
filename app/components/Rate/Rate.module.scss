@@ -1,0 +1,42 @@
+@use "styles/helpers" as *;
+
+.icon_container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--light-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &_container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.btn_submit {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: var(--very-dark-blue);
+    background-color: var(--orange);
+    border-radius: 23px;
+    padding: 1em 1.5em;
+    border: 1px solid transparent;
+    cursor: pointer;
+    @include transition;
+    &:hover {
+        background-color: var(--white);
+    }
+    &:focus,
+    &:active {
+        background-color: var(--white);
+        border: 1px solid var(--orange);
+    }
+}
